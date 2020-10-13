@@ -51,7 +51,7 @@ You are now ready to get your K8s on! 😁
 * Desktop (Windows, Mac or Linux) with latest PowerShell Core and PowerCLI 12.1 Core installed. See [ instructions here](https://blogs.vmware.com/PowerCLI/2018/03/installing-powercli-10-0-0-macos.html) for more details
 * vSphere 7 Update 1 & HAProxy OVAs:
     * [vCenter Server Appliance 7.0 Build 15952498](https://my.vmware.com/web/vmware/details?downloadGroup=VC700&productId=974&rPId=45006)
-    * [HAProxy v0.1.8 OVA](https://github.com/haproxytech/vmware-haproxy/releases/download/v0.1.8/vmware-haproxy-v0.1.8.ova)
+    * [HAProxy v0.1.8 OVA](https://cdn.haproxy.com/download/haproxy/vsphere/ova/vmware-haproxy-v0.1.8.ova)
     * [Nested ESXi 7.0 Update 1 OVA](https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi7.0u1_Appliance_Template_v1.ova)
 
 ## FAQ
