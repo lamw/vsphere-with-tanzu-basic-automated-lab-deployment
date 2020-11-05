@@ -381,7 +381,6 @@ william-tkc-01-workers-prsrg-67b745c5b8-6j8kx   vsphere://42172626-6f6b-f883-7e1
 william-tkc-01-workers-prsrg-67b745c5b8-fpjc5   vsphere://4217937e-4df4-dffd-4c72-a0aef0e006a9   Running
 william-tkc-01-workers-prsrg-67b745c5b8-wkvrb   vsphere://4217feea-bd6a-2500-b478-2e8214b1e6cb   Running
 ```
-![](screenshots/screenshot-19.png)
 
 Step 6 - Login to TKG Cluster specifying by running the following:
 
