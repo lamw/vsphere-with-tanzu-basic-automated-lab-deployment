@@ -16,7 +16,7 @@
 
 ## Description
 
-Similar to previous "Automated Lab Deployment Scripts" (such as [here](https://www.virtuallyghetto.com/2016/11/vghetto-automated-vsphere-lab-deployment-for-vsphere-6-0u2-vsphere-6-5.html), [here](https://www.virtuallyghetto.com/2017/10/vghetto-automated-nsx-t-2-0-lab-deployment.html), [here](https://www.virtuallyghetto.com/2018/06/vghetto-automated-pivotal-container-service-pks-lab-deployment.html) and [here](https://www.virtuallyghetto.com/2020/04/automated-vsphere-7-and-vsphere-with-kubernetes-lab-deployment-script.html)), this script makes it very easy for anyone with vSphere 7.0 Update 1 to deploy the new simplified vSphere with Tanzu Basic in a Nested Lab environment for learning and educational purposes. All required VMware components (ESXi, vCenter Server and HAProxy VMs) are automatically deployed and configured to allow enablement of vSphere with Tanzu Basic. For more details about vSphere with Tanzu, please refer to the official VMware documentation [here](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-C163490C-BE03-4DFE-8A03-5316D3245765.html).
+Similar to previous "Automated Lab Deployment Scripts" (such as [here](https://www.williamlam.com/2016/11/vghetto-automated-vsphere-lab-deployment-for-vsphere-6-0u2-vsphere-6-5.html), [here](https://www.williamlam.com/2017/10/vghetto-automated-nsx-t-2-0-lab-deployment.html), [here](https://www.williamlam.com/2018/06/vghetto-automated-pivotal-container-service-pks-lab-deployment.html) and [here](https://www.williamlam.com/2020/04/automated-vsphere-7-and-vsphere-with-kubernetes-lab-deployment-script.html)), this script makes it very easy for anyone with vSphere 7.0 Update 1 to deploy the new simplified vSphere with Tanzu Basic in a Nested Lab environment for learning and educational purposes. All required VMware components (ESXi, vCenter Server and HAProxy VMs) are automatically deployed and configured to allow enablement of vSphere with Tanzu Basic. For more details about vSphere with Tanzu, please refer to the official VMware documentation [here](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-C163490C-BE03-4DFE-8A03-5316D3245765.html).
 
 Below is a diagram of what is deployed as part of the solution and you simply need to have an existing vSphere environment running that is managed by vCenter Server and with enough resources (CPU, Memory and Storage) to deploy this "Nested" lab. For a complete end-to-end example including workload management enablement (post-deployment operation) and the deployment of a Tanzu Kubernetes Grid (TKG) Cluster, please have a look at the [Sample Execution](#sample-execution) section below.
 
@@ -31,7 +31,7 @@ You are now ready to get your K8s on! 😁
 
 ## Requirements
 * vCenter Server running at least vSphere 6.7 or later
-    * If your physical storage is vSAN, please ensure you've applied the following setting as mentioned [here](https://www.virtuallyghetto.com/2013/11/how-to-run-nested-esxi-on-top-of-vsan.html)
+    * If your physical storage is vSAN, please ensure you've applied the following setting as mentioned [here](https://www.williamlam.com/2013/11/how-to-run-nested-esxi-on-top-of-vsan.html)
 * Resource Requirements
     * Compute
         * Ability to provision VMs with up to 4 vCPU
@@ -58,7 +58,7 @@ You are now ready to get your K8s on! 😁
 
 1) Can I reduce the default CPU, Memory and Storage resources?
 
-    * You can, see this [blog post](https://www.virtuallyghetto.com/2020/04/deploying-a-minimal-vsphere-with-kubernetes-environment.html) for more details.
+    * You can, see this [blog post](https://www.williamlam.com/2020/04/deploying-a-minimal-vsphere-with-kubernetes-environment.html) for more details.
 
 3) Can I just deploy vSphere (VCSA, ESXi) and vSAN without HAProxy and vSphere with Tanzu?
 
@@ -75,14 +75,14 @@ You are now ready to get your K8s on! 😁
 
 7) How do I troubleshoot enabling or consuming vSphere with Tanzu?
 
-    * Please refer to this [troubleshooting tips for vSphere with Kubernetes](https://www.virtuallyghetto.com/2020/05/troubleshooting-tips-for-configuring-vsphere-with-kubernetes.html) blog post
+    * Please refer to this [troubleshooting tips for vSphere with Kubernetes](https://www.williamlam.com/2020/05/troubleshooting-tips-for-configuring-vsphere-with-kubernetes.html) blog post
 
 8) Is there a way to automate the enablement of Workload Management to a vSphere Cluster?
 
-    * Yes, the [Workload Management PowerCLI Module for automating vSphere with Tanzu](https://www.virtuallyghetto.com/2020/05/workload-management-powercli-module-for-automating-vsphere-with-kubernetes.html) will be updated later this week that will support the new workflow
+    * Yes, the [Workload Management PowerCLI Module for automating vSphere with Tanzu](https://www.williamlam.com/2020/05/workload-management-powercli-module-for-automating-vsphere-with-kubernetes.html) will be updated later this week that will support the new workflow
 
 9) Can I deploy vSphere with Tanzu using NSX-T instead of HAProxy?
-    * Yes, you will need to use the previous version of the [Automated vSphere with Kubernetes deployment script](https://www.virtuallyghetto.com/2020/04/automated-vsphere-7-and-vsphere-with-kubernetes-lab-deployment-script.html) and substituting the vSphere 7.0 Update 1 images
+    * Yes, you will need to use the previous version of the [Automated vSphere with Kubernetes deployment script](https://www.williamlam.com/2020/04/automated-vsphere-7-and-vsphere-with-kubernetes-lab-deployment-script.html) and substituting the vSphere 7.0 Update 1 images
 
 ## Configuration
 
