@@ -55,7 +55,7 @@ You are now ready to get your K8s on! 😁
 * vSphere 7 Update 1 & HAProxy OVAs:
     * [vCenter Server Appliance 7.0 Build 16860138](https://my.vmware.com/group/vmware/downloads/details?downloadGroup=VC70U1&productId=974&rPId=52847)
     * [HAProxy v0.1.8 OVA](https://cdn.haproxy.com/download/haproxy/vsphere/ova/vmware-haproxy-v0.1.8.ova)
-    * [Nested ESXi 7.0 Update 1 OVA](https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi7.0u1_Appliance_Template_v1.ova)
+    * [Nested ESXi 7.0 Update 1 OVA](https://community.broadcom.com/flings)
 
 ## FAQ
 
